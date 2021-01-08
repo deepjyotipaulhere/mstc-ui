@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 
-import { createMuiTheme, ThemeProvider, Button } from "@material-ui/core";
+import { createMuiTheme, ThemeProvider, Button } from "@material-ui/core/styles";
 
 const theme = createMuiTheme({
   palette: {
@@ -8,7 +8,7 @@ const theme = createMuiTheme({
       main: "#2d2c87",
     },
     secondary: {
-      main: "#AAAAAA",
+      main: '#00FFFF',
     },
   },
 });
