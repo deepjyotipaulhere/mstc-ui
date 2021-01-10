@@ -19,11 +19,13 @@ export default function index() {
       <Container style={{ padding: "5rem" }}>
         <center>
           <img src="/mstclogo.png" alt="MSTC Official Logo" />
-          <h1 style={{ fontSize: 50 }}>File Management</h1>
         </center>
-        <Grid container spacing={3}>
-          <Grid item xs={4}></Grid>
+        <Grid container spacing={3} style={{ marginTop: 30 }}>
+          <Grid item xs={8}>
+            <img src="/login.png" alt="" />
+          </Grid>
           <Grid item xs={4}>
+            <h1 style={{ fontSize: 50 }}>File Management</h1>
             <form>
               <TextField
                 label="Username"
@@ -62,7 +64,6 @@ export default function index() {
               </Button>
             </form>
           </Grid>
-          <Grid item xs={4}></Grid>
         </Grid>
         <p style={{ textAlign: 'center', color: 'GrayText', marginTop: '2em' }}>&copy; MSTC Limited</p>
       </Container>
